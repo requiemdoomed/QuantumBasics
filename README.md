@@ -187,8 +187,3 @@ The compiled circuit implements the same Bell preparation with the selected gate
 - [IBM Quantum Learning](https://quantum.cloud.ibm.com/learning)
 - [Google Colab FAQ](https://research.google.com/colaboratory/faq.html)
 
-## Author
-
-**Swayam Shakya**
-
-No repository license has been selected on the author's behalf. Choose one before inviting redistribution or external contributions.

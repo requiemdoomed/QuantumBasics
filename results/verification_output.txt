@@ -1,0 +1,91 @@
+Qiskit, Aer, and circuit-drawing dependencies are ready.
+Environment: {'python': '3.12.14', 'qiskit': '2.6.1', 'qiskit_aer': '0.18.2', 'numpy': '2.5.4', 'matplotlib': '3.11.2', 'pylatexenc': '2.10'}
+Ready: Qiskit circuits, simulator, plotting helpers, and checks.
+Zero: amplitudes=[1.+0.j 0.+0.j], probabilities=[1. 0.]
+One: amplitudes=[0.+0.j 1.+0.j], probabilities=[0. 1.]
+Equal superposition: amplitudes=[0.707+0.j 0.707+0.j], probabilities=[0.5 0.5]
+Biased state: amplitudes=[0.866+0.j 0.5  +0.j], probabilities=[0.75 0.25]
+Figure(1430x418)
+Hadamard counts: {'0': 515, '1': 509}
+Figure(880x495)
+Repeated measurements, c1c0: {'00': 526, '11': 498}
+After reset: {'0': 1024}
+Figure(387.943x220.733)
+ID on |+>: [0.707+0.j 0.707+0.j]
+X on |+>: [0.707+0.j 0.707+0.j]
+Y on |+>: [0.-0.707j 0.+0.707j]
+Z on |+>: [ 0.707+0.j -0.707+0.j]
+H on |+>: [1.+0.j 0.+0.j]
+S on |+>: [0.707+0.j    0.   +0.707j]
+T on |+>: [0.707+0.j  0.5  +0.5j]
+Figure(990x550)
+X then H: [ 0.707+0.j -0.707+0.j]
+H then X: [0.707+0.j 0.707+0.j]
+Figure(880x495)
+Bloch coordinates (X,Y,Z): [0.612 0.612 0.5  ]
+Figure(495x606.1)
+Figure(880x495)
+HH|0> probabilities: [1. 0.]
+HZH|0> probabilities: [0. 1.]
+Global phase leaves the physical state unchanged.
+X on q0 gives: {np.str_('01'): np.float64(1.0)}
+CNOT: 00 -> 00
+CNOT: 01 -> 11
+CNOT: 10 -> 10
+CNOT: 11 -> 01
+SWAP result: {np.str_('10'): np.float64(1.0)}
+Toffoli result: {np.str_('111'): np.float64(1.0)}
+Figure(316.246x312.706)
+Bell counts: {'00': 515, '11': 509}
+Reduced state of q0:
+ [[0.5+0.j 0. +0.j]
+ [0. +0.j 0.5+0.j]]
+Reduced-state purity: 0.4999999999999998
+Figure(316.024x220.733)
+Figure(1430x440)
+GHZ counts: {'000': 515, '111': 509}
+Figure(880x495)
+constant zero : q0 probabilities = [1. 0.]
+constant one : q0 probabilities = [1. 0.]
+identity : q0 probabilities = [0. 1.]
+opposite : q0 probabilities = [0. 1.]
+Figure(1430x418)
+Figure(499.968x220.733)
+0 iterations: [0.25 0.25 0.25 0.25]
+1 iterations: [0. 0. 1. 0.]
+2 iterations: [0.25 0.25 0.25 0.25]
+Figure(1320x440)
+Grover target 10 counts: {'10': 1024}
+Figure(1051.8x220.733)
+complex input: c1c0=00, count=239, fidelity=1.000000
+complex input: c1c0=01, count=254, fidelity=1.000000
+complex input: c1c0=10, count=278, fidelity=1.000000
+complex input: c1c0=11, count=253, fidelity=1.000000
+All six input states passed all four branch-fidelity checks.
+Figure(880x495)
+Figure(1052.02x404.678)
+Noisy density matrix:
+ [[0.8+0.j 0. +0.j]
+ [0. +0.j 0.2+0.j]]
+Probabilities: [0.8 0.2]
+Purity: 0.6800000000000002
+Figure(880x495)
+Noisy counts (4096 shots): {'0': 3307, '1': 789}
+Figure(880x495)
+Superposition after H : [1. 0.]
+Mixture after H : [0.5 0.5]
+Figure(990x440)
+Original operations: {'h': 1, 'cx': 1} depth: 2
+Compiled operations: {'rz': 2, 'sx': 1, 'cx': 1} depth: 4
+Figure(499.968x220.733)
+1. Probabilities: [0.2 0.8]
+2. Inverse rotation returns |0>.
+3. X-basis probabilities: [0. 1.] [1. 0.]
+4. The outcomes are 01 and 10.
+5. Every marked target is measured with certainty after one iteration.
+6. X, Y, Z expectations: [0. 1. 0.]
+Passed 303 checks; created 21 figures.
+Author: Swayam Shakya
+Quantum framework: Qiskit + Qiskit Aer
+Created qiskit_generated_results.zip
+PASS: 16 code cells; 21 PNG and 21 SVG exports.

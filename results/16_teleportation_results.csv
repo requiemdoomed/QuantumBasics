@@ -1,0 +1,25 @@
+input,classical_c1c0,shots,fidelity
+complex input,00,239,0.9999999999999996
+complex input,01,254,0.9999999999999996
+complex input,10,278,0.9999999999999994
+complex input,11,253,0.9999999999999996
+zero,00,239,1.0
+zero,01,254,1.0
+zero,10,278,1.0
+zero,11,253,1.0
+one,00,239,1.0
+one,01,254,1.0
+one,10,278,1.0
+one,11,253,1.0
+plus,00,239,1.0
+plus,01,254,1.0
+plus,10,278,1.0
+plus,11,253,1.0
+minus,00,239,1.0
+minus,01,254,1.0
+minus,10,278,1.0
+minus,11,253,1.0
+plus i,00,239,1.0
+plus i,01,254,1.0
+plus i,10,278,1.0
+plus i,11,253,1.0

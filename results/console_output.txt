@@ -1,0 +1,100 @@
+CELL 1: 0. Installing the tested Qiskit stack
+Qiskit, Aer, and circuit-drawing dependencies are ready.
+
+CELL 2: 1. Preparing a small learning workspace
+Environment: {'python': '3.12.14', 'qiskit': '2.6.1', 'qiskit_aer': '0.18.2', 'numpy': '2.5.4', 'matplotlib': '3.11.2', 'pylatexenc': '2.10'}
+Ready: Qiskit circuits, simulator, plotting helpers, and checks.
+
+CELL 3: 2. Meeting qubits and the Born rule
+Zero: amplitudes=[1.+0.j 0.+0.j], probabilities=[1. 0.]
+One: amplitudes=[0.+0.j 1.+0.j], probabilities=[0. 1.]
+Equal superposition: amplitudes=[0.707+0.j 0.707+0.j], probabilities=[0.5 0.5]
+Biased state: amplitudes=[0.866+0.j 0.5  +0.j], probabilities=[0.75 0.25]
+
+CELL 4: 3. Sampling and measuring twice
+Hadamard counts: {'0': 515, '1': 509}
+Repeated measurements, c1c0: {'00': 526, '11': 498}
+After reset: {'0': 1024}
+
+CELL 5: 4. Applying X, Y, Z, H, S, and T
+ID on |+>: [0.707+0.j 0.707+0.j]
+X on |+>: [0.707+0.j 0.707+0.j]
+Y on |+>: [0.-0.707j 0.+0.707j]
+Z on |+>: [ 0.707+0.j -0.707+0.j]
+H on |+>: [1.+0.j 0.+0.j]
+S on |+>: [0.707+0.j    0.   +0.707j]
+T on |+>: [0.707+0.j  0.5  +0.5j]
+X then H: [ 0.707+0.j -0.707+0.j]
+H then X: [0.707+0.j 0.707+0.j]
+
+CELL 6: 5. Rotating and binding a circuit parameter
+Bloch coordinates (X,Y,Z): [0.612 0.612 0.5  ]
+
+CELL 7: 6. Revealing phase through interference
+HH|0> probabilities: [1. 0.]
+HZH|0> probabilities: [0. 1.]
+Global phase leaves the physical state unchanged.
+
+CELL 8: 7. Reading bit order and controlled gates
+X on q0 gives: {np.str_('01'): np.float64(1.0)}
+CNOT: 00 -> 00
+CNOT: 01 -> 11
+CNOT: 10 -> 10
+CNOT: 11 -> 01
+SWAP result: {np.str_('10'): np.float64(1.0)}
+Toffoli result: {np.str_('111'): np.float64(1.0)}
+
+CELL 9: 8. Creating a Bell pair and a GHZ state
+Bell counts: {'00': 515, '11': 509}
+Reduced state of q0:
+ [[0.5+0.j 0. +0.j]
+ [0. +0.j 0.5+0.j]]
+Reduced-state purity: 0.4999999999999998
+GHZ counts: {'000': 515, '111': 509}
+
+CELL 10: 9. Solving Deutsch’s problem with circuit oracles
+constant zero : q0 probabilities = [1. 0.]
+constant one : q0 probabilities = [1. 0.]
+identity : q0 probabilities = [0. 1.]
+opposite : q0 probabilities = [0. 1.]
+
+CELL 11: 10. Searching four labels with Grover’s algorithm
+0 iterations: [0.25 0.25 0.25 0.25]
+1 iterations: [0. 0. 1. 0.]
+2 iterations: [0.25 0.25 0.25 0.25]
+Grover target 10 counts: {'10': 1024}
+
+CELL 12: 11. Teleporting with actual measurements and classical control
+complex input: c1c0=00, count=239, fidelity=1.000000
+complex input: c1c0=01, count=254, fidelity=1.000000
+complex input: c1c0=10, count=278, fidelity=1.000000
+complex input: c1c0=11, count=253, fidelity=1.000000
+All six input states passed all four branch-fidelity checks.
+
+CELL 13: 12. Exploring density matrices and a bit-flip channel
+Noisy density matrix:
+ [[0.8+0.j 0. +0.j]
+ [0. +0.j 0.2+0.j]]
+Probabilities: [0.8 0.2]
+Purity: 0.6800000000000002
+Noisy counts (4096 shots): {'0': 3307, '1': 789}
+Superposition after H : [1. 0.]
+Mixture after H : [0.5 0.5]
+
+CELL 14: 13. Compiling a circuit without changing its meaning
+Original operations: {'h': 1, 'cx': 1} depth: 2
+Compiled operations: {'rz': 2, 'sx': 1, 'cx': 1} depth: 4
+
+CELL 15: 14. Trying six small exercises
+1. Probabilities: [0.2 0.8]
+2. Inverse rotation returns |0>.
+3. X-basis probabilities: [0. 1.] [1. 0.]
+4. The outcomes are 01 and 10.
+5. Every marked target is measured with certainty after one iteration.
+6. X, Y, Z expectations: [0. 1. 0.]
+
+CELL 16: 15. Saving your results
+Passed 303 checks; created 21 figures.
+Author: Swayam Shakya
+Quantum framework: Qiskit + Qiskit Aer
+Created qiskit_generated_results.zip

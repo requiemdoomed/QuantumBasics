@@ -1,0 +1,86 @@
+[
+  {
+    "name": "01_qubit_probabilities",
+    "caption": "Qiskit calculates amplitudes and Born probabilities for all four preparations."
+  },
+  {
+    "name": "02_measurement_histogram",
+    "caption": "Sampling is finite-shot; exact theoretical probabilities are 0.5 and 0.5."
+  },
+  {
+    "name": "03_repeated_measurement_circuit",
+    "caption": "Aer simulates two measurements of one qubit; count strings display c1c0."
+  },
+  {
+    "name": "04_gate_amplitudes",
+    "caption": "H maps |+> to |0>; phase gates change relative phase in different ways."
+  },
+  {
+    "name": "05_rotation_curve",
+    "caption": "Ry(0) gives zero probability of 1; Ry(pi) gives probability 1."
+  },
+  {
+    "name": "06_bloch_sphere",
+    "caption": "Qiskit plots the prepared state; its Bloch vector has unit length."
+  },
+  {
+    "name": "07_phase_interference",
+    "caption": "Relative phase changes the final probability; the input Z-basis probabilities remain 50/50."
+  },
+  {
+    "name": "08_toffoli_circuit",
+    "caption": "Starting from 011, CCX with controls q0 and q1 produces 111 (q2q1q0)."
+  },
+  {
+    "name": "09_bell_circuit",
+    "caption": "Qiskit draws q0 on the top wire; H then CX prepares the Bell state."
+  },
+  {
+    "name": "10_entanglement_comparison",
+    "caption": "For these two preparations, X-basis results reveal Bell coherence that Z-basis counts alone cannot establish."
+  },
+  {
+    "name": "11_ghz_histogram",
+    "caption": "The ideal GHZ circuit produces only 000 and 111; finite counts fluctuate."
+  },
+  {
+    "name": "12_deutsch_results",
+    "caption": "Both constant functions give q0=0; both balanced functions give q0=1 with certainty in the ideal circuit."
+  },
+  {
+    "name": "13_deutsch_circuit",
+    "caption": "The identity oracle is CX(q0,q1); the auxiliary q1 begins in |->."
+  },
+  {
+    "name": "14_grover_results",
+    "caption": "One iteration concentrates probability on 10; two return to a uniform distribution in this four-item example."
+  },
+  {
+    "name": "15_grover_circuit",
+    "caption": "The left block marks 10; the right block amplifies it through interference."
+  },
+  {
+    "name": "16_teleportation_results",
+    "caption": "All four corrected branches have fidelity 1; their sampled frequencies are near 0.25."
+  },
+  {
+    "name": "17_teleportation_circuit",
+    "caption": "Qiskit if_test blocks execute X conditioned on c1, then Z conditioned on c0."
+  },
+  {
+    "name": "18_noise_and_purity",
+    "caption": "Mixing is strongest at p=0.5. A certain flip at p=1 returns to a pure state."
+  },
+  {
+    "name": "19_noise_histogram",
+    "caption": "Sampled frequencies approach 0.8 for 0 and 0.2 for 1; they are not exact probabilities."
+  },
+  {
+    "name": "20_coherence_comparison",
+    "caption": "H maps |+> to |0>, while the maximally mixed state remains 50/50."
+  },
+  {
+    "name": "21_transpiled_circuit",
+    "caption": "The compiled circuit implements the same Bell preparation with the selected gate basis."
+  }
+]
